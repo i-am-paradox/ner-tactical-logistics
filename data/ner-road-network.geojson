@@ -1,0 +1,283 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "SEG-GHY-SHL-01",
+        "name": "Guwahati to Shillong Expressway (NH-6)",
+        "from_node": "AS-KAM",
+        "to_node": "ML-EKH",
+        "distance_km": 98.4,
+        "base_duration_min": 140,
+        "road_type": "4-Lane Mountain Highway",
+        "avg_slope_deg": 18.2,
+        "max_elevation_m": 1520,
+        "base_risk_score": 24,
+        "bridge_count": 8,
+        "critical_culverts": 14,
+        "is_safe_corridor": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [91.7362, 26.1445],
+          [91.7820, 26.0120],
+          [91.8150, 25.8850],
+          [91.8620, 25.7200],
+          [91.8933, 25.5788]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "SEG-SHL-SIL-02",
+        "name": "Shillong to Silchar Highway (NH-6 / Jowai Pass)",
+        "from_node": "ML-EKH",
+        "to_node": "AS-CAC",
+        "distance_km": 215.6,
+        "base_duration_min": 360,
+        "road_type": "2-Lane Mountain Corridor",
+        "avg_slope_deg": 29.5,
+        "max_elevation_m": 1480,
+        "base_risk_score": 68,
+        "bridge_count": 19,
+        "critical_culverts": 32,
+        "is_safe_corridor": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [91.8933, 25.5788],
+          [92.2150, 25.4500],
+          [92.3500, 25.2800],
+          [92.5200, 25.0500],
+          [92.7976, 24.8333]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "SEG-GHY-ITA-03",
+        "name": "Guwahati to Itanagar Arterial (NH-15/NH-415)",
+        "from_node": "AS-KAM",
+        "to_node": "AR-PAP",
+        "distance_km": 322.0,
+        "base_duration_min": 420,
+        "road_type": "4-Lane Plain to Foothill",
+        "avg_slope_deg": 12.0,
+        "max_elevation_m": 750,
+        "base_risk_score": 38,
+        "bridge_count": 24,
+        "critical_culverts": 45,
+        "is_safe_corridor": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [91.7362, 26.1445],
+          [92.3200, 26.4500],
+          [92.8000, 26.6800],
+          [93.2500, 26.9000],
+          [93.6053, 27.0844]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "SEG-ITA-TAW-04",
+        "name": "Trans-Arunachal Sela-Tawang Corridor (NH-13)",
+        "from_node": "AR-PAP",
+        "to_node": "AR-TAW",
+        "distance_km": 445.0,
+        "base_duration_min": 720,
+        "road_type": "High Altitude Mountain Pass",
+        "avg_slope_deg": 38.6,
+        "max_elevation_m": 4170,
+        "base_risk_score": 84,
+        "bridge_count": 31,
+        "critical_culverts": 68,
+        "is_safe_corridor": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [93.6053, 27.0844],
+          [92.8000, 27.1500],
+          [92.4200, 27.2800],
+          [92.1000, 27.4200],
+          [91.8687, 27.5861]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "SEG-GHY-KOH-05",
+        "name": "Guwahati-Dimapur-Kohima Trunk (NH-27/NH-29)",
+        "from_node": "AS-KAM",
+        "to_node": "NL-KOH",
+        "distance_km": 348.5,
+        "base_duration_min": 480,
+        "road_type": "Major Inter-State Highway",
+        "avg_slope_deg": 22.4,
+        "max_elevation_m": 1450,
+        "base_risk_score": 52,
+        "bridge_count": 27,
+        "critical_culverts": 50,
+        "is_safe_corridor": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [91.7362, 26.1445],
+          [92.7000, 26.3500],
+          [93.7200, 25.9100],
+          [93.8800, 25.7800],
+          [94.1086, 25.6751]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "SEG-KOH-IMP-06",
+        "name": "Kohima to Imphal Life-line (NH-2)",
+        "from_node": "NL-KOH",
+        "to_node": "MN-IMP",
+        "distance_km": 138.0,
+        "base_duration_min": 210,
+        "road_type": "2-Lane Mountain Corridor",
+        "avg_slope_deg": 26.8,
+        "max_elevation_m": 1440,
+        "base_risk_score": 64,
+        "bridge_count": 14,
+        "critical_culverts": 28,
+        "is_safe_corridor": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [94.1086, 25.6751],
+          [94.0200, 25.4500],
+          [93.9800, 25.1800],
+          [93.9368, 24.8170]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "SEG-SIL-AIZ-07",
+        "name": "Silchar to Aizawl Gateway (NH-306/NH-54)",
+        "from_node": "AS-CAC",
+        "to_node": "MZ-AIZ",
+        "distance_km": 172.4,
+        "base_duration_min": 310,
+        "road_type": "Hilly Single/2-Lane Corridor",
+        "avg_slope_deg": 31.0,
+        "max_elevation_m": 1130,
+        "base_risk_score": 72,
+        "bridge_count": 21,
+        "critical_culverts": 42,
+        "is_safe_corridor": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [92.7976, 24.8333],
+          [92.7500, 24.5200],
+          [92.6800, 24.1800],
+          [92.7176, 23.7307]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "SEG-SIL-AGT-08",
+        "name": "Silchar to Agartala Highway (NH-8)",
+        "from_node": "AS-CAC",
+        "to_node": "TR-WST",
+        "distance_km": 288.0,
+        "base_duration_min": 450,
+        "road_type": "2-Lane Rolling/Plain Highway",
+        "avg_slope_deg": 8.4,
+        "max_elevation_m": 240,
+        "base_risk_score": 30,
+        "bridge_count": 35,
+        "critical_culverts": 58,
+        "is_safe_corridor": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [92.7976, 24.8333],
+          [92.3500, 24.5000],
+          [91.9500, 24.1500],
+          [91.5500, 23.9500],
+          [91.2868, 23.8315]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "SEG-GHY-DIB-09",
+        "name": "Guwahati to Dibrugarh Brahmaputra Express (NH-15)",
+        "from_node": "AS-KAM",
+        "to_node": "AS-DIB",
+        "distance_km": 435.0,
+        "base_duration_min": 520,
+        "road_type": "4-Lane River Valley Corridor",
+        "avg_slope_deg": 3.2,
+        "max_elevation_m": 120,
+        "base_risk_score": 20,
+        "bridge_count": 42,
+        "critical_culverts": 75,
+        "is_safe_corridor": true
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [91.7362, 26.1445],
+          [92.8000, 26.6800],
+          [93.6500, 26.9500],
+          [94.3500, 27.2000],
+          [94.9120, 27.4728]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "segment_id": "SEG-GHY-GTK-10",
+        "name": "Guwahati to Gangtok Corridor (NH-27/NH-10)",
+        "from_node": "AS-KAM",
+        "to_node": "SK-EAS",
+        "distance_km": 540.0,
+        "base_duration_min": 780,
+        "road_type": "Corridor with Teesta River Gorge",
+        "avg_slope_deg": 33.2,
+        "max_elevation_m": 1650,
+        "base_risk_score": 76,
+        "bridge_count": 38,
+        "critical_culverts": 64,
+        "is_safe_corridor": false
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [91.7362, 26.1445],
+          [90.5000, 26.5000],
+          [89.5000, 26.7000],
+          [88.6000, 27.0000],
+          [88.6138, 27.3389]
+        ]
+      }
+    }
+  ]
+}

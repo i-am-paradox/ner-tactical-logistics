@@ -1,0 +1,388 @@
+{
+  "vehicles": [
+    {
+      "vehicleId": "NER-CONVOY-101",
+      "registrationNumber": "AS-01-GB-4089",
+      "model": "Tata LPTA 1623 4x4 High-Terrain Heavy",
+      "type": "Heavy Cargo",
+      "capacityTons": 10.0,
+      "currentLoadTons": 7.8,
+      "fuelLevelPct": 84,
+      "engineTempC": 88,
+      "driver": {
+        "name": "Bikash Borah",
+        "phone": "+91 94350 11234",
+        "license": "AS-DL-2018-098231",
+        "experienceYears": 11,
+        "rating": 4.9
+      },
+      "currentLocation": {
+        "type": "Point",
+        "coordinates": [91.8150, 25.8850]
+      },
+      "heading": 145,
+      "speedKmph": 42,
+      "status": "in_transit",
+      "assignedSegmentId": "SEG-GHY-SHL-01",
+      "assignedShipmentId": "SHP-MED-2026-081",
+      "altitudeM": 890,
+      "batteryPct": 98
+    },
+    {
+      "vehicleId": "NER-CONVOY-102",
+      "registrationNumber": "ML-05-C-7712",
+      "model": "Ashok Leyland Stallion 4x4 Troop & Cargo",
+      "type": "Reefer Vaccine Hauler",
+      "capacityTons": 6.5,
+      "currentLoadTons": 4.2,
+      "fuelLevelPct": 67,
+      "engineTempC": 92,
+      "driver": {
+        "name": "Daphisha Marbaniang",
+        "phone": "+91 98620 44512",
+        "license": "ML-DL-2020-112003",
+        "experienceYears": 8,
+        "rating": 4.8
+      },
+      "currentLocation": {
+        "type": "Point",
+        "coordinates": [92.3500, 25.2800]
+      },
+      "heading": 130,
+      "speedKmph": 28,
+      "status": "caution_zone",
+      "assignedSegmentId": "SEG-SHL-SIL-02",
+      "assignedShipmentId": "SHP-EMG-2026-042",
+      "altitudeM": 1340,
+      "batteryPct": 94
+    },
+    {
+      "vehicleId": "NER-CONVOY-103",
+      "registrationNumber": "AR-01-A-9034",
+      "model": "Mahindra Bolero Camper 4WD Expeditor",
+      "type": "Quick Response Patrol",
+      "capacityTons": 2.0,
+      "currentLoadTons": 1.1,
+      "fuelLevelPct": 92,
+      "engineTempC": 82,
+      "driver": {
+        "name": "Tenzing Norbu",
+        "phone": "+91 94028 99810",
+        "license": "AR-DL-2016-553102",
+        "experienceYears": 14,
+        "rating": 5.0
+      },
+      "currentLocation": {
+        "type": "Point",
+        "coordinates": [92.4200, 27.2800]
+      },
+      "heading": 310,
+      "speedKmph": 35,
+      "status": "in_transit",
+      "assignedSegmentId": "SEG-ITA-TAW-04",
+      "assignedShipmentId": "SHP-EQUIP-2026-105",
+      "altitudeM": 2980,
+      "batteryPct": 96
+    },
+    {
+      "vehicleId": "NER-CONVOY-104",
+      "registrationNumber": "NL-07-B-3108",
+      "model": "BharatBenz 2823C Heavy Hauler",
+      "type": "Grain & Rations Hauler",
+      "capacityTons": 18.0,
+      "currentLoadTons": 15.5,
+      "fuelLevelPct": 76,
+      "engineTempC": 86,
+      "driver": {
+        "name": "Keviletuo Angami",
+        "phone": "+91 94360 88231",
+        "license": "NL-DL-2017-771239",
+        "experienceYears": 9,
+        "rating": 4.7
+      },
+      "currentLocation": {
+        "type": "Point",
+        "coordinates": [93.7200, 25.9100]
+      },
+      "heading": 115,
+      "speedKmph": 50,
+      "status": "in_transit",
+      "assignedSegmentId": "SEG-GHY-KOH-05",
+      "assignedShipmentId": "SHP-FOOD-2026-302",
+      "altitudeM": 620,
+      "batteryPct": 91
+    },
+    {
+      "vehicleId": "NER-CONVOY-105",
+      "registrationNumber": "MN-01-K-5541",
+      "model": "Eicher Pro 3019 Rugged Chassis",
+      "type": "Medical Oxygen Hauler",
+      "capacityTons": 9.0,
+      "currentLoadTons": 6.8,
+      "fuelLevelPct": 54,
+      "engineTempC": 94,
+      "driver": {
+        "name": "Thoiba Singh",
+        "phone": "+91 98560 33119",
+        "license": "MN-DL-2019-332901",
+        "experienceYears": 12,
+        "rating": 4.9
+      },
+      "currentLocation": {
+        "type": "Point",
+        "coordinates": [94.0200, 25.4500]
+      },
+      "heading": 170,
+      "speedKmph": 31,
+      "status": "in_transit",
+      "assignedSegmentId": "SEG-KOH-IMP-06",
+      "assignedShipmentId": "SHP-OXY-2026-019",
+      "altitudeM": 1280,
+      "batteryPct": 88
+    },
+    {
+      "vehicleId": "NER-CONVOY-106",
+      "registrationNumber": "MZ-01-F-1190",
+      "model": "Force Kargo King Grand 4x4",
+      "type": "Light Emergency Relief",
+      "capacityTons": 3.5,
+      "currentLoadTons": 2.4,
+      "fuelLevelPct": 89,
+      "engineTempC": 80,
+      "driver": {
+        "name": "Lalrinsanga Sailo",
+        "phone": "+91 94361 77203",
+        "license": "MZ-DL-2021-008311",
+        "experienceYears": 6,
+        "rating": 4.6
+      },
+      "currentLocation": {
+        "type": "Point",
+        "coordinates": [92.6800, 24.1800]
+      },
+      "heading": 175,
+      "speedKmph": 22,
+      "status": "caution_zone",
+      "assignedSegmentId": "SEG-SIL-AIZ-07",
+      "assignedShipmentId": "SHP-COMM-2026-118",
+      "altitudeM": 940,
+      "batteryPct": 95
+    }
+  ],
+  "shipments": [
+    {
+      "shipmentId": "SHP-MED-2026-081",
+      "title": "Critical Insulin & Anti-Venom Consignment",
+      "originDistrictId": "AS-KAM",
+      "originName": "Guwahati Central Depot",
+      "destinationDistrictId": "ML-EKH",
+      "destinationName": "NEIGRIHMS Shillong",
+      "cargoType": "Medicines",
+      "priority": "critical",
+      "status": "in_transit",
+      "assignedVehicleId": "NER-CONVOY-101",
+      "weightKg": 7800,
+      "tempRequirementC": "2°C to 8°C",
+      "currentTempC": "4.2°C",
+      "dispatchedAt": "2026-09-11T09:30:00.000Z",
+      "estimatedArrival": "2026-09-11T13:45:00.000Z",
+      "milestones": [
+        {"name": "Guwahati Hub Dispatched", "completed": true, "time": "09:30 AM"},
+        {"name": "Burnihat Border Checkpoint", "completed": true, "time": "10:15 AM"},
+        {"name": "Nongpoh Transit Point", "completed": true, "time": "11:20 AM"},
+        {"name": "Umiam Lake By-pass", "completed": false, "time": "Est 12:40 PM"},
+        {"name": "NEIGRIHMS Delivery Bay", "completed": false, "time": "Est 01:45 PM"}
+      ]
+    },
+    {
+      "shipmentId": "SHP-EMG-2026-042",
+      "title": "Pediatric Vaccines & Blood Plasma Kits",
+      "originDistrictId": "ML-EKH",
+      "originName": "Shillong Civil Medical Store",
+      "destinationDistrictId": "AS-CAC",
+      "destinationName": "Silchar Medical College",
+      "cargoType": "Medicines",
+      "priority": "critical",
+      "status": "in_transit",
+      "assignedVehicleId": "NER-CONVOY-102",
+      "weightKg": 4200,
+      "tempRequirementC": "-20°C Cryo-Pack",
+      "currentTempC": "-18.5°C",
+      "dispatchedAt": "2026-09-11T07:15:00.000Z",
+      "estimatedArrival": "2026-09-11T15:30:00.000Z",
+      "milestones": [
+        {"name": "Shillong Depot Departure", "completed": true, "time": "07:15 AM"},
+        {"name": "Jowai Bypass Entry", "completed": true, "time": "09:10 AM"},
+        {"name": "Ladrymbai Landslide Watch", "completed": true, "time": "11:45 AM"},
+        {"name": "Kalain Plains Crossing", "completed": false, "time": "Est 02:10 PM"},
+        {"name": "SMCH Silchar Offload", "completed": false, "time": "Est 03:30 PM"}
+      ]
+    },
+    {
+      "shipmentId": "SHP-EQUIP-2026-105",
+      "title": "Solar Inverters & High-Altitude Satcom Terminals",
+      "originDistrictId": "AR-PAP",
+      "originName": "Itanagar IT & Disaster Store",
+      "destinationDistrictId": "AR-TAW",
+      "destinationName": "Tawang Border Post Logistics",
+      "cargoType": "Heavy Equipment",
+      "priority": "high",
+      "status": "in_transit",
+      "assignedVehicleId": "NER-CONVOY-103",
+      "weightKg": 1100,
+      "tempRequirementC": "Ambient",
+      "currentTempC": "14.0°C",
+      "dispatchedAt": "2026-09-11T05:00:00.000Z",
+      "estimatedArrival": "2026-09-11T21:00:00.000Z",
+      "milestones": [
+        {"name": "Itanagar Base Departure", "completed": true, "time": "05:00 AM"},
+        {"name": "Bhalukpong Gate", "completed": true, "time": "08:30 AM"},
+        {"name": "Bomdila Pass Entry", "completed": true, "time": "12:15 PM"},
+        {"name": "Sela Pass Tunnel Corridor", "completed": false, "time": "Est 05:30 PM"},
+        {"name": "Tawang Base Logistics", "completed": false, "time": "Est 09:00 PM"}
+      ]
+    },
+    {
+      "shipmentId": "SHP-FOOD-2026-302",
+      "title": "FCI Essential Grain & Fortified Pulses Rations",
+      "originDistrictId": "AS-KAM",
+      "originName": "FCI Changsari Silo Guwahati",
+      "destinationDistrictId": "NL-KOH",
+      "destinationName": "Kohima Food Security Warehouse",
+      "cargoType": "Food Supplies",
+      "priority": "standard",
+      "status": "in_transit",
+      "assignedVehicleId": "NER-CONVOY-104",
+      "weightKg": 15500,
+      "tempRequirementC": "Dry Ambient",
+      "currentTempC": "27.5°C",
+      "dispatchedAt": "2026-09-11T08:00:00.000Z",
+      "estimatedArrival": "2026-09-11T17:00:00.000Z",
+      "milestones": [
+        {"name": "Changsari Silo Loaded", "completed": true, "time": "08:00 AM"},
+        {"name": "Nagaon Bypass Cleared", "completed": true, "time": "10:45 AM"},
+        {"name": "Dimapur Checkpost", "completed": false, "time": "Est 02:00 PM"},
+        {"name": "Chumukedima Hill Climb", "completed": false, "time": "Est 03:45 PM"},
+        {"name": "Kohima Central Depot", "completed": false, "time": "Est 05:00 PM"}
+      ]
+    }
+  ],
+  "incidents": [
+    {
+      "clientUuid": "INC-2026-0911-001",
+      "incidentType": "landslide",
+      "severity": 4,
+      "title": "Mudslide & Boulder Fall on NH-6 near Sonapur Tunnel",
+      "description": "Heavy overnight monsoon runoff triggered mud accumulation spanning 45 meters across both lanes. Border Roads Organisation (BRO) earthmovers dispatched. Single-lane emergency convoy passage only.",
+      "districtId": "ML-EKH",
+      "districtName": "East Khasi Hills",
+      "roadSegmentId": "SEG-SHL-SIL-02",
+      "location": {
+        "type": "Point",
+        "coordinates": [92.3500, 25.2800]
+      },
+      "status": "crew_dispatched",
+      "reporterRole": "field_agent",
+      "reporterName": "Field Agent J. Lyngdoh (Meghalaya Disaster Cell)",
+      "capturedAt": "2026-09-11T08:45:00.000Z",
+      "receivedAt": "2026-09-11T08:46:12.000Z",
+      "originalLanguage": "en",
+      "aiClassification": {
+        "incidentType": "landslide",
+        "severity": 4,
+        "confidence": 0.94,
+        "shortDescription": "High-risk active mudflow over 45m pavement, steep hillside saturation index 88%."
+      }
+    },
+    {
+      "clientUuid": "INC-2026-0911-002",
+      "incidentType": "road_blockage",
+      "severity": 3,
+      "title": "Flash Flooding and Culvert Overflow at Silchar Bypass",
+      "description": "Barak River backwater level exceeded danger mark by 0.35m at Champa river bridge approach. Light vehicles diverted; heavy 4x4 relief convoys proceeding with caution.",
+      "districtId": "AS-CAC",
+      "districtName": "Cachar",
+      "roadSegmentId": "SEG-SIL-AIZ-07",
+      "location": {
+        "type": "Point",
+        "coordinates": [92.7500, 24.5200]
+      },
+      "status": "verified",
+      "reporterRole": "district_officer",
+      "reporterName": "Officer R. Das (Cachar Emergency Operation Centre)",
+      "capturedAt": "2026-09-11T09:15:00.000Z",
+      "receivedAt": "2026-09-11T09:15:40.000Z",
+      "originalLanguage": "en",
+      "aiClassification": {
+        "incidentType": "flood",
+        "severity": 3,
+        "confidence": 0.89,
+        "shortDescription": "Standing water 25cm on road shoulder, structural integrity intact."
+      }
+    },
+    {
+      "clientUuid": "INC-2026-0911-003",
+      "incidentType": "bridge_damage",
+      "severity": 2,
+      "title": "Minor Timber Deck Scour on Sela Pass Military Bailey Bridge",
+      "description": "Surface plank shifting observed under heavy continuous snowmelt vibration. Speed restricted to 10 km/h. Safe for single vehicle crossing.",
+      "districtId": "AR-TAW",
+      "districtName": "Tawang",
+      "roadSegmentId": "SEG-ITA-TAW-04",
+      "location": {
+        "type": "Point",
+        "coordinates": [92.1000, 27.4200]
+      },
+      "status": "reported",
+      "reporterRole": "driver",
+      "reporterName": "Driver Tenzing Norbu",
+      "capturedAt": "2026-09-11T10:05:00.000Z",
+      "receivedAt": "2026-09-11T10:07:22.000Z",
+      "originalLanguage": "en",
+      "aiClassification": {
+        "incidentType": "bridge_damage",
+        "severity": 2,
+        "confidence": 0.91,
+        "shortDescription": "Non-structural timber decking displacement, cautionary speed governor advised."
+      }
+    }
+  ],
+  "alerts": [
+    {
+      "alertId": "ALT-2026-901",
+      "severity": "critical",
+      "scope": "corridor",
+      "title": "RED ALERT: Active Landslide Watch on NH-6 Jowai-Silchar Corridor",
+      "message": "Continuous precipitation (112mm in 6 hrs) has triggered soil liquefaction alerts on slopes exceeding 25 degrees. All medical and priority relief convoys must verify clearance with Assam/Meghalaya Joint Command before entry.",
+      "affectedDistricts": ["East Khasi Hills", "Cachar"],
+      "affectedCorridors": ["NH-6"],
+      "channels": ["in_app", "sms", "push"],
+      "isActive": true,
+      "createdAt": "2026-09-11T08:50:00.000Z"
+    },
+    {
+      "alertId": "ALT-2026-902",
+      "severity": "warning",
+      "scope": "district",
+      "title": "Heavy Precipitation Advisory: Papum Pare & Tawang Districts",
+      "message": "IMD regional radar projects persistent heavy rainfall with dense cloud cover reducing visibility to <50m along Sela Pass. Convoys instructed to operate with high-fog lamps and minimum 50m separation.",
+      "affectedDistricts": ["Papum Pare", "Tawang"],
+      "affectedCorridors": ["NH-13", "NH-415"],
+      "channels": ["in_app", "push"],
+      "isActive": true,
+      "createdAt": "2026-09-11T07:30:00.000Z"
+    },
+    {
+      "alertId": "ALT-2026-903",
+      "severity": "info",
+      "scope": "all",
+      "title": "Guwahati-Shillong NH-6 Green Corridor Verification Complete",
+      "message": "NHAI and BRO joint inspection confirms four-lane carriageway on Guwahati-Shillong expressway is fully open and graded Safe (Risk Score: 24/100). All standard logistics fleets may resume scheduled speeds.",
+      "affectedDistricts": ["Kamrup Metropolitan", "East Khasi Hills"],
+      "affectedCorridors": ["NH-6"],
+      "channels": ["in_app"],
+      "isActive": true,
+      "createdAt": "2026-09-11T06:00:00.000Z"
+    }
+  ]
+}
