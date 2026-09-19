@@ -26,9 +26,13 @@ const io = new Server(server, {
 });
 initializeSocket(io);
 
+const path = require('path');
+const fs = require('fs');
+
 // Security & Parsing Middlewares
 app.use(helmet({
-  crossOriginResourcePolicy: false
+  crossOriginResourcePolicy: false,
+  contentSecurityPolicy: false
 }));
 
 app.use(cors({
@@ -43,16 +47,43 @@ app.use(express.urlencoded({ extended: true, limit: '20mb' }));
 // Mount API v1
 app.use('/api/v1', routes);
 
-// Root greeting
-app.get('/', (req, res) => {
-  res.json({
-    platform: 'NER Logistics & Emergency Command System (NER-LECS)',
-    version: '1.0.0',
-    status: 'OPERATIONAL',
-    apiDocs: '/api/v1/health',
-    timestamp: new Date()
+// Serve Frontend dist if available
+const frontendDistPaths = [
+  path.join(__dirname, '../../frontend/dist'),
+  path.join(__dirname, '../../../frontend/dist'),
+  path.join(process.cwd(), 'frontend/dist'),
+  path.join(process.cwd(), 'dist')
+];
+
+let resolvedDist = null;
+for (const p of frontendDistPaths) {
+  if (fs.existsSync(p) && fs.existsSync(path.join(p, 'index.html'))) {
+    resolvedDist = p;
+    break;
+  }
+}
+
+if (resolvedDist) {
+  console.log(`[Frontend] Serving static frontend build from: ${resolvedDist}`);
+  app.use(express.static(resolvedDist));
+  app.get('*', (req, res, next) => {
+    if (req.path.startsWith('/api') || req.path.startsWith('/socket.io')) {
+      return next();
+    }
+    res.sendFile(path.join(resolvedDist, 'index.html'));
   });
-});
+} else {
+  // Root greeting fallback
+  app.get('/', (req, res) => {
+    res.json({
+      platform: 'NER Logistics & Emergency Command System (NER-LECS)',
+      version: '1.0.0',
+      status: 'OPERATIONAL',
+      apiDocs: '/api/v1/health',
+      timestamp: new Date()
+    });
+  });
+}
 
 // 404 and Centralized Error Handling
 app.use(notFoundHandler);

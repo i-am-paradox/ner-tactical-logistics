@@ -10,7 +10,7 @@ The North Eastern Region (NER) of India—comprising Assam, Meghalaya, Arunachal
 
 **NER-LECS** solves this through:
 1. **Deterministic Multi-Factor Risk Engine**: Calculates real-time road hazard scores using rainfall intensity, slope gradients from SRTM DEM, and historical incident density.
-2. **Graph-Based Multi-Criteria Route Optimizer**: Computes **Fastest**, **Safest**, and **Balanced** candidate paths via Dijkstra/A* pathfinding with risk penalties.
+2. **Graph-Based Multi-Criteria Route Optimizer**: Computes **Fastest**, **Safest**, and **Balanced** candidate paths via Dijkstra's/A* pathfinding with risk penalties.
 3. **Google Gemini Multimodal AI Integration**: Instant photo classification for landslides, data-grounded route explanations, natural language intelligence synthesis, and multilingual emergency broadcast translation (Assamese, Bengali, Hindi, English).
 4. **Resilient Offline PWA Sync**: IndexedDB queued incident submissions that automatically sync upon network restoration with idempotent UUID upserting.
 5. **Real-Time Fleet Simulation**: Socket.io live telemetry streaming vehicle position, speed, heading, and cargo temperature every 2.5s.

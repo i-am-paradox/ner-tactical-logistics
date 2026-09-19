@@ -4,29 +4,37 @@ const config = require('./env');
 let memoryServer = null;
 
 async function connectDB() {
-  try {
-    console.log(`[Database] Attempting connection to MongoDB at: ${config.mongoUri}`);
-    mongoose.set('strictQuery', false);
-    
-    // Try connecting to configured MongoDB instance with a short timeout
-    await mongoose.connect(config.mongoUri, {
-      serverSelectionTimeoutMS: 2500
-    });
-    console.log('[Database] Connected to external/local MongoDB successfully.');
-  } catch (err) {
-    console.warn(`[Database] Could not connect to ${config.mongoUri}: ${err.message}`);
-    console.log('[Database] Initializing MongoMemoryServer in-memory fallback database...');
-    
+  mongoose.set('strictQuery', false);
+  const urisToTry = [
+    config.mongoUri,
+    'mongodb://127.0.0.1:27017/ner_logistics',
+    'mongodb://localhost:27017/ner_logistics'
+  ];
+
+  for (const uri of urisToTry) {
+    if (!uri) continue;
     try {
-      const { MongoMemoryServer } = require('mongodb-memory-server');
-      memoryServer = await MongoMemoryServer.create();
-      const memUri = memoryServer.getUri();
-      await mongoose.connect(memUri);
-      console.log(`[Database] In-memory MongoDB initialized and connected at: ${memUri}`);
-    } catch (memErr) {
-      console.error('[Database] Critical: Failed to start in-memory MongoDB fallback:', memErr);
-      throw memErr;
+      console.log(`[Database] Attempting connection to MongoDB at: ${uri}`);
+      await mongoose.connect(uri, {
+        serverSelectionTimeoutMS: 4000
+      });
+      console.log(`[Database] Connected to MongoDB successfully at: ${uri}`);
+      return;
+    } catch (err) {
+      console.warn(`[Database] Could not connect to ${uri}: ${err.message}`);
     }
+  }
+
+  console.log('[Database] Initializing MongoMemoryServer in-memory fallback database...');
+  try {
+    const { MongoMemoryServer } = require('mongodb-memory-server');
+    memoryServer = await MongoMemoryServer.create();
+    const memUri = memoryServer.getUri();
+    await mongoose.connect(memUri);
+    console.log(`[Database] In-memory MongoDB initialized and connected at: ${memUri}`);
+  } catch (memErr) {
+    console.error('[Database] Critical: Failed to start in-memory MongoDB fallback:', memErr);
+    throw memErr;
   }
 
   mongoose.connection.on('error', (err) => {
